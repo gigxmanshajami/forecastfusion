@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ForecastFusion",
+    "slug": "forecastFusion",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/fusion.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/forecastfusionsplash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "permissions": ["INTERNET"]
+    },
+    "android": {
+      "permissions": ["INTERNET","ACCESS_FINE_LOCATION"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/fusion.png",
+        "backgroundColor": "#000"
+      },
+      "package": "com.thecodermansha.forecastFusion"
+    },
+    "web": {
+      "favicon": "./assets/fusion.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "23ed2aeb-9591-45c0-82fd-83351537d6eb"
+      }
+    }
+  }
+}
